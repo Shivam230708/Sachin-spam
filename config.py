@@ -1,4 +1,4 @@
-# ©️ @SACHIN_OWNER || @V_VIP_OWNER
+# ©️ @username_rk01 || https://t.me/+cOFKKAr4_DVjMjE9
 import logging
 from telethon import TelegramClient
 from os import getenv
@@ -6,8 +6,8 @@ from SACHINxSPAM.data import DEV
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
 
-API_ID = 18136872
-API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
+API_ID = 25028796
+API_HASH = "885615da36b5b0128f86159f77a20a0e"
 CMD_HNDLR = getenv("CMD_HNDLR", default="!")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -23,10 +23,10 @@ BOT_TOKEN8 = getenv("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = getenv("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="5959548791").split()))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="7493545396").split()))
 for x in DEV:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="6735289775"))
+OWNER_ID = int(getenv("OWNER_ID", default="5337517666"))
 SUDO_USERS.append(OWNER_ID)
 
 
